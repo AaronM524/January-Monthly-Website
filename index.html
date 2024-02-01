@@ -1,7 +1,7 @@
-!<!doctype html>
+<!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Birthday</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -14,17 +14,68 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
+            crossorigin="anonymous"/>
+
+        <!-- MY CSS -->
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        <header>
-            <!-- place navbar here -->
+    <body style="background-color:grey;">
+
+        <!-- header section-->
+        <header class=" text-black text-center py-2">
+            <div class="container">
+                <h1 class="display-4"> On My Birthday </h1>
+                <p class="lead"> I was born on August 21, 2007. Browse through & see more events that happened during this day!</p>
+            </div>
         </header>
-        <main></main>
-        <footer>
-            <!-- place footer here -->
+
+        <!-- Image Area-->
+        <main>
+           
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12  text-center">
+                            <img class="img1 img-fluid" src="IMG_9901.JPG"  width="1000" height="1000" id="Change-Image">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8 text-center m-3">
+                            <h3 id="Change-Text"> </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!--Buttons-->
+             <div class="row text-center justify-content-center m-3 g-4 align-items-center">
+                <hr>
+                <div class="col-12 col-lg-2 my-2">
+                    <button onclick="Change1264()" class="btn">1264</button>
+                </div>
+                <div class="col-12 col-lg-2 my-2">
+                    <button onclick="Change1858()" class="btn">1858</button>
+                </div>
+                <div class="col-12 col-lg-2 my-2">
+                    <button onclick="Change1911()" class="btn">1911</button>
+                </div>
+                <div class="col-12 col-lg-2 my-2">
+                    <button onclick="Change1959()" class="btn">1959</button>
+                </div>
+                <div class="col-12 col-lg-2 my-2">
+                    <button onclick="Change1996()" class="btn">1996</button>
+                </div>
+                <hr>
+            </div>
+
+
+        </div>
+    </main>
+            <!-- Footer Section-->
+
+        <footer class="bg-secondary text-white text-center py-2 fixed-bottom">
+            <div class="container">
+                <p class="lead"> &copy; Factsite.com, Apnews.com, Facts.net </p> 
+            </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
@@ -38,6 +89,8 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
+        <!-- Javascript libraries-->
+        <script src="script.js"></script>
     </body>
 </html>
-
