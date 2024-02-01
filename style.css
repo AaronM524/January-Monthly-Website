@@ -1,24 +1,111 @@
-
-
-.img1 {
-    max-width: 40%;
-    height: auto; 
-}
-
-
-body {
-    margin: 0;
-    padding-bottom: 100px; 
-    background-color: rgb(184, 181, 181);
-}
-
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px; 
+    height: 40px; 
     background-color: rgba(0, 0, 0, 0.8); 
     color: white; 
     text-align: center;
     padding: 20px;
+}
+
+    
+    .zoom {
+      transition: transform .2s;
+    }
+    
+    .zoom:hover {
+      -ms-transform: scale(0.9); 
+      -webkit-transform: scale(0.9); 
+      transform: scale(0.9); 
+    }
+    
+    .borderfix {
+        border-style: solid;
+        border: 2px solid black;
+    }
+  
+    .footer {
+      text-align: center;
+  }
+
+  .btn-1 {
+    width: 75px;
+    height: 65px; 
+    border: none; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 grey; 
+    transition: ease-out 0.3 onset;
+    font-size: 2em;
+    outline: none; 
+}
+
+.btn-1:hover {
+    box-shadow: inset 100px 0 0 0 grey; 
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-2{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.btn-2:hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.card-image {
+    max-width: 450px; /* Adjust the max-width as per your requirement */
+    margin: 0 auto; /* Centers the card horizontally */
+}
+
+.img-fluid {
+    max-width: 100%; /* Ensures the image resizes within its container */
 }
